@@ -1,25 +1,25 @@
-//import json server
-const jsonServer=require ('json-server')
+// Import json-server
+const jsonServer = require('json-server');
 
-//create a server application using json server
-const  mediaServer=jsonServer.create()
+// Create a server application using json-server
+const mediaServer = jsonServer.create();
 
-//create middleware using json server
-const middleware=jsonServer.defaults
+// Create middleware using json-server
+const middleware = jsonServer.defaults(); // Correctly calling as a function
 
-//set up route for db.json
-const router=jsonServer.router('db.json')
+// Set up route for db.json
+const router = jsonServer.router('db.json');
 
-//applying middleaware to the server
-mediaServer.use(middleware)
+// Applying middleware to the server
+mediaServer.use(middleware);
 
-//applying router to the server
-mediaServer.use(router)
+// Applying router to the server
+mediaServer.use(router);
 
-//setting the port
-const PORT=3000
+// Set the port using environment variable PORT or default to 3000
+const PORT = process.env.PORT || 3000;
 
-//starting the server
-mediaServer.listen(PORT,()=>{
-    console.log("media server started....listening on" +PORT)
-})
+// Start the server, listening on 0.0.0.0 to accept external requests
+mediaServer.listen(PORT, '0.0.0.0', () => {
+    console.log(`Media server started....listening on port ${PORT}`);
+});
