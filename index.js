@@ -16,10 +16,10 @@ mediaServer.use(middleware)
 //applying router to the server
 mediaServer.use(router)
 
-// Setting the port to use environment variable PORT or default to 3000
-const PORT = process.env.PORT || 3000;
+//setting the port
+const PORT=3000
 
-// Starting the server
-mediaServer.listen(PORT, '0.0.0.0', () => {
-    console.log(`Media server started....listening on port ${PORT}`);
-});
+//starting the server
+mediaServer.listen(PORT,()=>{
+    console.log("media server started....listening on" +PORT)
+})
