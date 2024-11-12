@@ -24,12 +24,6 @@
     {
       "categoryDetails": "movie",
       "allVideos": [
-        {
-          "caption": "john wick",
-          "imageurl": "music",
-          "url": "https://www.youtube.com/embed/agdkjslcds",
-          "id": 2
-        }
       ],
       "id": 2
     },
