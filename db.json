@@ -1,61 +1,10 @@
 {
   "allvideos": [
-    {
-      "caption": "xcvhjk",
-      "imageurl": "zdxfghvj",
-      "url": "https://www.youtube.com/embed/vhbj",
-      "id": 1
-    },
-    {
-      "caption": "john wick",
-      "imageurl": "music",
-      "url": "https://www.youtube.com/embed/agdkjslcds",
-      "id": 2
-    }
+    
   ],
   "category": [
-    {
-      "categoryDetails": "music",
-      "allVideos": [
-       
-      ],
-      "id": 1
-    },
-    {
-      "categoryDetails": "movie",
-      "allVideos": [
-      ],
-      "id": 2
-    },
-    {
-      "categoryDetails": "react",
-      "allVideos": [],
-      "id": 3
-    },
-    {
-      "categoryDetails": "java",
-      "allVideos": [],
-      "id": 4
-    }
+
   ],
   "watchhistory": [
-    {
-      "caption": "mdm,as,",
-      "url": "https://www.youtube.com/embed/mff,smc,zxc",
-      "timestamp": "11/06/24, 12:38:16 AM",
-      "id": 1
-    },
-    {
-      "caption": "john wick",
-      "url": "https://www.youtube.com/embed/agdkjslcds",
-      "timestamp": "11/06/24, 09:29:29 AM",
-      "id": 2
-    },
-    {
-      "caption": "mdm,as,",
-      "url": "https://www.youtube.com/embed/mff,smc,zxc",
-      "timestamp": "11/06/24, 09:29:32 AM",
-      "id": 3
-    }
   ]
 }
